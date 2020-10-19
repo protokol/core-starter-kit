@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "@protokol/REPO_NAME",
+	"name": "@protokol/repo-name",
 	"description": "REPO DESCRIPTION",
 	"engineStrict": true,
 	"engines": {
