@@ -2107,9 +2107,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@protokol/REPO_NAME@workspace:.":
+"@protokol/repo-name@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@protokol/REPO_NAME@workspace:."
+  resolution: "@protokol/repo-name@workspace:."
   dependencies:
     "@arkecosystem/core": ^3.0.0-next.4
     "@arkecosystem/core-cli": ^3.0.0-next.4
