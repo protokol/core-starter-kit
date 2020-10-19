@@ -1,7 +1,7 @@
 ![Img](core-starter-kit.png)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-# ARK CORE Development Starter Kit
+# ARK Core-v3 Starter Kit
 
 This is a template repository project. It contains ARK Core Blockchain App Boilerplate Code that accelerates your distributed application development on top of the ARK Core-v3 blockchain application platform.
 
