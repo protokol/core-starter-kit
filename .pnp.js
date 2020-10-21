@@ -265,6 +265,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@arkecosystem/utils", "npm:1.2.0"],
             ["@hapi/joi", "npm:17.1.1"],
             ["@pm2/io", "npm:4.3.5"],
+            ["@protokol/guardian-api", "npm:1.0.0-beta.28"],
+            ["@protokol/guardian-transactions", "npm:1.0.0-beta.28"],
+            ["@protokol/nft-base-api", "npm:1.0.0-beta.28"],
+            ["@protokol/nft-base-transactions", "npm:1.0.0-beta.28"],
+            ["@protokol/nft-exchange-api", "npm:1.0.0-beta.28"],
+            ["@protokol/nft-exchange-transactions", "npm:1.0.0-beta.28"],
             ["chalk", "npm:4.1.0"],
             ["cron", "npm:1.8.2"],
             ["dayjs", "npm:1.9.3"],
@@ -2337,6 +2343,140 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@protokol/guardian-api", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-guardian-api-npm-1.0.0-beta.28-a1b99bb77c-7169888847.zip/node_modules/@protokol/guardian-api/",
+          "packageDependencies": [
+            ["@protokol/guardian-api", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/core-api", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-kernel", "npm:3.0.0-next.4"],
+            ["@hapi/boom", "npm:9.1.0"],
+            ["@hapi/hapi", "npm:19.2.0"],
+            ["@hapi/joi", "npm:17.1.1"],
+            ["@protokol/guardian-crypto", "npm:1.0.0-beta.28"],
+            ["@protokol/guardian-transactions", "npm:1.0.0-beta.28"],
+            ["latest-version", "npm:5.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@protokol/guardian-crypto", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-guardian-crypto-npm-1.0.0-beta.28-a88b61b65b-024a22494f.zip/node_modules/@protokol/guardian-crypto/",
+          "packageDependencies": [
+            ["@protokol/guardian-crypto", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/crypto", "npm:3.0.0-next.4"],
+            ["@protokol/utils", "npm:1.0.0-beta.28"],
+            ["bytebuffer", "npm:5.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@protokol/guardian-transactions", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-guardian-transactions-npm-1.0.0-beta.28-b62d5bc949-03aa6dda02.zip/node_modules/@protokol/guardian-transactions/",
+          "packageDependencies": [
+            ["@protokol/guardian-transactions", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/core-database", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-kernel", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-state", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-transactions", "npm:3.0.0-next.4"],
+            ["@arkecosystem/crypto", "npm:3.0.0-next.4"],
+            ["@protokol/guardian-crypto", "npm:1.0.0-beta.28"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@protokol/nft-base-api", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-nft-base-api-npm-1.0.0-beta.28-bc9b84c414-b7dcb25b82.zip/node_modules/@protokol/nft-base-api/",
+          "packageDependencies": [
+            ["@protokol/nft-base-api", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/core-api", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-kernel", "npm:3.0.0-next.4"],
+            ["@hapi/boom", "npm:9.1.0"],
+            ["@hapi/hapi", "npm:19.2.0"],
+            ["@hapi/joi", "npm:17.1.1"],
+            ["@protokol/nft-base-crypto", "npm:1.0.0-beta.28"],
+            ["@protokol/nft-base-transactions", "npm:1.0.0-beta.28"],
+            ["latest-version", "npm:5.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@protokol/nft-base-crypto", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-nft-base-crypto-npm-1.0.0-beta.28-fde3c53e83-f26ba00284.zip/node_modules/@protokol/nft-base-crypto/",
+          "packageDependencies": [
+            ["@protokol/nft-base-crypto", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/crypto", "npm:3.0.0-next.4"],
+            ["@protokol/utils", "npm:1.0.0-beta.28"],
+            ["bytebuffer", "npm:5.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@protokol/nft-base-transactions", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-nft-base-transactions-npm-1.0.0-beta.28-6609b83173-97393e8cf0.zip/node_modules/@protokol/nft-base-transactions/",
+          "packageDependencies": [
+            ["@protokol/nft-base-transactions", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/core-database", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-kernel", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-state", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-transactions", "npm:3.0.0-next.4"],
+            ["@arkecosystem/crypto", "npm:3.0.0-next.4"],
+            ["@protokol/nft-base-crypto", "npm:1.0.0-beta.28"],
+            ["ajv", "npm:6.12.6"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@protokol/nft-exchange-api", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-nft-exchange-api-npm-1.0.0-beta.28-e2b0b3a1a5-0a392ea09b.zip/node_modules/@protokol/nft-exchange-api/",
+          "packageDependencies": [
+            ["@protokol/nft-exchange-api", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/core-api", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-kernel", "npm:3.0.0-next.4"],
+            ["@hapi/boom", "npm:9.1.0"],
+            ["@hapi/hapi", "npm:19.2.0"],
+            ["@hapi/joi", "npm:17.1.1"],
+            ["@protokol/nft-exchange-transactions", "npm:1.0.0-beta.28"],
+            ["latest-version", "npm:5.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@protokol/nft-exchange-crypto", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-nft-exchange-crypto-npm-1.0.0-beta.28-6baa9c1d36-26b82f6d8e.zip/node_modules/@protokol/nft-exchange-crypto/",
+          "packageDependencies": [
+            ["@protokol/nft-exchange-crypto", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/crypto", "npm:3.0.0-next.4"],
+            ["@protokol/utils", "npm:1.0.0-beta.28"],
+            ["bytebuffer", "npm:5.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@protokol/nft-exchange-transactions", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-nft-exchange-transactions-npm-1.0.0-beta.28-7a12a2fcbb-797523771c.zip/node_modules/@protokol/nft-exchange-transactions/",
+          "packageDependencies": [
+            ["@protokol/nft-exchange-transactions", "npm:1.0.0-beta.28"],
+            ["@arkecosystem/core-database", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-kernel", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-state", "npm:3.0.0-next.4"],
+            ["@arkecosystem/core-transactions", "npm:3.0.0-next.4"],
+            ["@arkecosystem/crypto", "npm:3.0.0-next.4"],
+            ["@protokol/nft-base-crypto", "npm:1.0.0-beta.28"],
+            ["@protokol/nft-base-transactions", "npm:1.0.0-beta.28"],
+            ["@protokol/nft-exchange-crypto", "npm:1.0.0-beta.28"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@protokol/repo-name", [
         ["workspace:.", {
           "packageLocation": "./",
@@ -2374,6 +2514,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript-language-server", "npm:0.4.0"]
           ],
           "linkType": "SOFT",
+        }]
+      ]],
+      ["@protokol/utils", [
+        ["npm:1.0.0-beta.28", {
+          "packageLocation": "./.yarn/cache/@protokol-utils-npm-1.0.0-beta.28-153ec4e86a-87c63781ea.zip/node_modules/@protokol/utils/",
+          "packageDependencies": [
+            ["@protokol/utils", "npm:1.0.0-beta.28"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["@samverschueren/stream-to-observable", [
