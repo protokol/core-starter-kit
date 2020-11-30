@@ -61,7 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nock", "npm:13.0.4"],
             ["npm-check-updates", "npm:10.1.1"],
             ["pg", "virtual:9e29d4cac0e6921f3e5b943200e601ef83e028717d26b0d963c5344a7ede40d06676ed46fa8e62c2570a54acbaeec33d8bbc9def7d42774395ba8b87d42e842c#npm:8.4.1"],
-            ["pg-query-stream", "npm:3.3.1"],
+            ["pg-query-stream", "npm:4.0.0"],
             ["prettier", "npm:2.1.2"],
             ["rimraf", "npm:3.0.2"],
             ["ts-jest", "virtual:5627c3bb31d7cb153ca263baa518b50b7924954730b9038a270353a913ed5fca986302299430549995cf77c45071ee6f139aec22cf72f9009c743435a022d6d7#npm:26.4.4"],
@@ -2969,7 +2969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nock", "npm:13.0.4"],
             ["npm-check-updates", "npm:10.1.1"],
             ["pg", "virtual:9e29d4cac0e6921f3e5b943200e601ef83e028717d26b0d963c5344a7ede40d06676ed46fa8e62c2570a54acbaeec33d8bbc9def7d42774395ba8b87d42e842c#npm:8.4.1"],
-            ["pg-query-stream", "npm:3.3.1"],
+            ["pg-query-stream", "npm:4.0.0"],
             ["prettier", "npm:2.1.2"],
             ["rimraf", "npm:3.0.2"],
             ["ts-jest", "virtual:5627c3bb31d7cb153ca263baa518b50b7924954730b9038a270353a913ed5fca986302299430549995cf77c45071ee6f139aec22cf72f9009c743435a022d6d7#npm:26.4.4"],
@@ -10491,7 +10491,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["ngrok", [
         ["npm:3.3.0", {
-          "packageLocation": "./.yarn/unplugged/ngrok-npm-3.3.0-ff8d3edfc1/node_modules/ngrok/",
+          "packageLocation": "./.yarn/cache/ngrok-npm-3.3.0-ff8d3edfc1-6e9bdd8e03.zip/node_modules/ngrok/",
           "packageDependencies": [
             ["ngrok", "npm:3.3.0"],
             ["@types/node", "npm:8.10.64"],
@@ -11563,6 +11563,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pg", "virtual:9e29d4cac0e6921f3e5b943200e601ef83e028717d26b0d963c5344a7ede40d06676ed46fa8e62c2570a54acbaeec33d8bbc9def7d42774395ba8b87d42e842c#npm:8.4.1"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:2.5.2", {
+          "packageLocation": "./.yarn/cache/pg-cursor-npm-2.5.2-b99730336d-1735cfa9a6.zip/node_modules/pg-cursor/",
+          "packageDependencies": [
+            ["pg-cursor", "npm:2.5.2"],
+            ["pg", "virtual:9e29d4cac0e6921f3e5b943200e601ef83e028717d26b0d963c5344a7ede40d06676ed46fa8e62c2570a54acbaeec33d8bbc9def7d42774395ba8b87d42e842c#npm:8.4.1"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["pg-int8", [
@@ -11604,6 +11612,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["pg-query-stream", "npm:3.3.1"],
             ["pg-cursor", "npm:2.4.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/pg-query-stream-npm-4.0.0-6b121c8a86-17447fd0c0.zip/node_modules/pg-query-stream/",
+          "packageDependencies": [
+            ["pg-query-stream", "npm:4.0.0"],
+            ["pg-cursor", "npm:2.5.2"]
           ],
           "linkType": "HARD",
         }]
@@ -12011,7 +12027,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["protobufjs", [
         ["npm:6.10.2", {
-          "packageLocation": "./.yarn/unplugged/protobufjs-npm-6.10.2-f0f2cab7fe/node_modules/protobufjs/",
+          "packageLocation": "./.yarn/cache/protobufjs-npm-6.10.2-f0f2cab7fe-09d6292362.zip/node_modules/protobufjs/",
           "packageDependencies": [
             ["protobufjs", "npm:6.10.2"],
             ["@protobufjs/aspromise", "npm:1.1.2"],

@@ -2696,7 +2696,7 @@ __metadata:
     nock: ^13.0.4
     npm-check-updates: ^10.0.0
     pg: ^8.2.1
-    pg-query-stream: ^3.2.3
+    pg-query-stream: ^4.0.0
     prettier: ^2.0.5
     rimraf: ^3.0.2
     ts-jest: ~26.4.0
@@ -10420,6 +10420,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"pg-cursor@npm:^2.5.2":
+  version: 2.5.2
+  resolution: "pg-cursor@npm:2.5.2"
+  checksum: 1735cfa9a6f16566cd91c20517a321dd0516f57ce321be170a2cd4c4bcc67fd3e9b7e5326c2d40b30e82a3d542eafece7717a6fd236b6c05b9004e745f33c9be
+  languageName: node
+  linkType: hard
+
 "pg-int8@npm:1.0.1":
   version: 1.0.1
   resolution: "pg-int8@npm:1.0.1"
@@ -10443,12 +10450,21 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"pg-query-stream@npm:^3.0.4, pg-query-stream@npm:^3.2.3, pg-query-stream@npm:latest":
+"pg-query-stream@npm:^3.0.4, pg-query-stream@npm:latest":
   version: 3.3.1
   resolution: "pg-query-stream@npm:3.3.1"
   dependencies:
     pg-cursor: ^2.4.1
   checksum: 4982d341433504e672c2b9e152bb916efc28070a20a23a5aaad475e3de91f64f46879f9ed52c288f942dd479f7d9421ca8fd9965744fb84ab33a9d43e1fac0f1
+  languageName: node
+  linkType: hard
+
+"pg-query-stream@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "pg-query-stream@npm:4.0.0"
+  dependencies:
+    pg-cursor: ^2.5.2
+  checksum: 17447fd0c0bb45c1a8ced3a6677b8398f23728c8d207b66cbb1d8191bfc2b56202573b6aa39d558c5556ebe0810fd477a83e4d293b5a93f0d8fc6a24e6e6903b
   languageName: node
   linkType: hard
 
