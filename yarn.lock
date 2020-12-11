@@ -80,7 +80,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@arkecosystem/core-cli@npm:3.0.0-next.16, @arkecosystem/core-cli@npm:^3.0.0-next.16":
+"@arkecosystem/core-cli@npm:^3.0.0-next, @arkecosystem/core-cli@npm:^3.0.0-next.16":
   version: 3.0.0-next.16
   resolution: "@arkecosystem/core-cli@npm:3.0.0-next.16"
   dependencies:
@@ -442,7 +442,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@arkecosystem/core@npm:3.0.0-next.16":
+"@arkecosystem/core@npm:^3.0.0-next":
   version: 3.0.0-next.16
   resolution: "@arkecosystem/core@npm:3.0.0-next.16"
   dependencies:
@@ -2487,8 +2487,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@protokol/repo-name@workspace:."
   dependencies:
-    "@arkecosystem/core": 3.0.0-next.16
-    "@arkecosystem/core-cli": 3.0.0-next.16
+    "@arkecosystem/core": ^3.0.0-next
+    "@arkecosystem/core-cli": ^3.0.0-next
     "@sindresorhus/tsconfig": ^0.8.0
     "@types/eslint": ^7.2.0
     "@types/eslint-plugin-prettier": ^3.1.0
