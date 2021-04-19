@@ -2348,7 +2348,7 @@ __metadata:
     "@arkecosystem/core": ^3.0.0-next
     "@arkecosystem/core-cli": ^3.0.0-next
     "@sindresorhus/tsconfig": ^1.0.1
-    "@types/eslint": ^7.2.0
+    "@types/eslint": ^7.2.10
     "@types/eslint-plugin-prettier": ^3.1.0
     "@types/jest": ^26.0.10
     "@types/node": ^14.14.37
@@ -2359,10 +2359,10 @@ __metadata:
     "@yarnpkg/pnpify": ^2.1.0
     codecov: ^3.7.2
     cross-env: ^7.0.2
-    eslint: ^7.7.0
-    eslint-config-prettier: ^8.0.0
-    eslint-plugin-jest: ^24.0.0
-    eslint-plugin-prettier: ^3.2.0
+    eslint: ^7.24.0
+    eslint-config-prettier: ^8.1.0
+    eslint-plugin-jest: ^24.3.5
+    eslint-plugin-prettier: ^3.4.0
     eslint-plugin-simple-import-sort: ^7.0.0
     jest: ^26.4.1
     jest-extended: ^0.11.5
@@ -2599,7 +2599,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*, @types/eslint@npm:^7.2.0":
+"@types/eslint@npm:*, @types/eslint@npm:^7.2.10":
   version: 7.2.10
   resolution: "@types/eslint@npm:7.2.10"
   dependencies:
@@ -5560,7 +5560,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.0.0":
+"eslint-config-prettier@npm:^8.1.0":
   version: 8.2.0
   resolution: "eslint-config-prettier@npm:8.2.0"
   peerDependencies:
@@ -5571,7 +5571,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^24.0.0":
+"eslint-plugin-jest@npm:^24.3.5":
   version: 24.3.5
   resolution: "eslint-plugin-jest@npm:24.3.5"
   dependencies:
@@ -5586,7 +5586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^3.2.0":
+"eslint-plugin-prettier@npm:^3.4.0":
   version: 3.4.0
   resolution: "eslint-plugin-prettier@npm:3.4.0"
   dependencies:
@@ -5643,7 +5643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.7.0, eslint@npm:latest":
+"eslint@npm:^7.24.0, eslint@npm:latest":
   version: 7.24.0
   resolution: "eslint@npm:7.24.0"
   dependencies:
